@@ -13,7 +13,7 @@ Parameters "P_c_x", "P_c_y", "P_c_z", "S_W", "S_H", and "f" need to be personali
 "S_W" and "S_H": screen size (cm) <br />
 "f": focal length of camera <br />
 <br />
-![Parameters positions](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/correcting_gaze.png)
+
 
 # Calibrating the focal length of the camera by the attached tools
 Execute the script "focal_length_calibration.ipynb" or "focal_length_calibration.py" to estimated the focal length (f), and the value will be shown at the top-left corner of the window. <br />
@@ -21,7 +21,7 @@ Steps for calibration:<br />
 Step 1, please place your head in front of the camera about 50 cm (you can change this value in the code) <br />
 Step 2, please insert your interpupillary distance (the distance between two eyes) in the code or use the average value, 6.3 cm <br />
 <br />
-![Calibration Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/calibration.png)
+
 
 # Starting to correct gaze! (Self-demo)
 Push 'r' key when focusing the "local" window and gaze your head on the "remote" window to start gaze correction. <br />
@@ -29,7 +29,7 @@ Push 'q' key when focusing the "local" window to leave the program. <br />
 <br />
 *The video will delay at beginning because the TCP socket transmission, nevertheless, the video will be on time after few seconds. <br />
 <br />
-![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/system_usage.png)
+
 
 # For online video communication
 The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both sides. <br />
